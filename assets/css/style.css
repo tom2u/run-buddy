@@ -302,12 +302,14 @@ background-position: 80%;
 
 .trainer-bio h3 {
   font-size: 28px;
+  display: none;
 }
 
 .trainer-bio h4 {
   font-weight: lighter;
   font-size: 22px;
   margin-bottom: 15px;
+  display: none;
 }
 
 .trainer-bio p {
@@ -548,6 +550,19 @@ background-position: 80%;
   .step-text {
     flex: 100%;  
   }
+
+  .trainer-img h3,
+  .trainer-img h4,
+  .trainer-img::after {
+    display: none;
+  }
+  
+  .trainer-bio h3,
+  .trainer-bio h4 {
+    display: block;
+  }
+
+  
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
